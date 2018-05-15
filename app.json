@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#409EDB",
+    "navigationBarTitleText": "快读·咨询",
+    "navigationBarTextStyle":"white",
+    "navigationStyle":"custom"
+  }
+}

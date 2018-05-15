@@ -1,0 +1,21 @@
+<view class="topBar">
+<view class='topbar-text'>快读·咨询</view>
+
+
+
+</view>
+<view class='tab'>
+<view class="tab-view {{index==num?'border-b':''}}" data-index='{{index}}' wx:for="{{array}}" bindtap='tabClick'>
+ 
+{{item}}</view>
+</view>
+
+<view class='tab-view-boder'>
+ <!-- <image src='http://img1.gtimg.com/news/pics/hv1/38/85/1076/69988613.jpg'></image> -->
+</view>
+<view class='news-tittle' wx:for='{{news}}'>
+<view class='title'>{{item.title}}</view>
+ 
+<image class='image' src='{{item.firstImage}}'></image> 
+<view class='date'>{{item.date}}</view>
+</view>
